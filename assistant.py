@@ -8,9 +8,9 @@ import google.generativeai as genai
 # ==========================
 # CONFIGURATION
 # ==========================
-GMAIL_EMAIL = "relam4349@gmail.com"
-GMAIL_APP_PASSWORD = "iepx wbnt uyqy bypc"  # Gmail App Password
-GEMINI_API_KEY = "AIzaSyChvNEMy9-GrXdapqDPU2SWkoObCAuznaw"
+GMAIL_EMAIL = "YOUR_GMAIL_EMAIL"
+GMAIL_APP_PASSWORD = "YOUR_GMAIL_APP_PASSWORD"  
+GEMINI_API_KEY ="YOUR_GEMINI_API_KEY"
 
 # IMAP & SMTP
 IMAP_SERVER = "imap.gmail.com"
@@ -166,3 +166,4 @@ def run_ui():
 
 if __name__ == "__main__":
     run_ui()
+
